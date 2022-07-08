@@ -4,9 +4,9 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"github.com/solutionstack/notifier-cli/notifier"
 	"io"
 	"net/url"
-	"notifier-cli/notifier"
 	"os"
 	"os/signal"
 	"regexp"
@@ -24,7 +24,7 @@ var fileData []string
 
 func main() {
 	interrupt := make(chan os.Signal, 1)
-	signal.Notify(interrupt, os.Interrupt,syscall.SIGTERM, syscall.SIGINT)
+	signal.Notify(interrupt, os.Interrupt, syscall.SIGTERM, syscall.SIGINT)
 
 
 	defer func() {
@@ -61,7 +61,7 @@ func main() {
 	}
 
 	readFile()
-	processData()
+	//processData()
 }
 
 

@@ -1,4 +1,4 @@
-module notifier-cli
+module github.com/solutionstack/notifier-cli
 
 go 1.18
 
