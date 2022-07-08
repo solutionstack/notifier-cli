@@ -61,7 +61,7 @@ func main() {
 	}
 
 	readFile()
-	//processData()
+	processData()
 }
 
 
