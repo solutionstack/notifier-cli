@@ -77,11 +77,11 @@ func readFile() {
 	for scanner.Scan() {
 		text := scanner.Text()
 		fileData = append(fileData, text)
-		//fmt.Println(fileData)
 	}
 
 	err := scanner.Err()
 	if err != nil && err != io.EOF {
+		panic(err)
 	}
 	fmt.Println("reading file complete")
 
