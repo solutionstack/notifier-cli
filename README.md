@@ -8,8 +8,9 @@ Data is read from STDIN and the rate of sending can be controlled via
 `--i or --interval eg --i=5s` parameter
 ### Usage:
 
-The folder contains a sample `data.txt` file for testing
-replace `--url` value with a valid urls.
+The folder contains a sample `data.txt` file for testing.
+
+Replace `--url` value with a valid url.
 
 1. Run directly
 ```
