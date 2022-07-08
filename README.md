@@ -13,7 +13,7 @@ replace `--url` value with a valid urls.
 
 1. Run directly
 ```
-go run main.go --url=https://webhook.site/f30d570f-20ac-4211-a389-2f3696e1fa45 < data.txt
+go run main.go --url=https://webhook.site/f30d570f-20ac-4211-a389-2f3696e1fa45 < data.txt --i=3s
 ```
 
 2. Build binary and run
