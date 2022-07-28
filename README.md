@@ -1,7 +1,6 @@
 # notifier-cli
-### (exercise only, non-prod)
 
-This project file contains a notifier package for sending
+### Simple sample program to handle arbitrarily large list messages to a specific url
 http POST requests to a configured url.
 
 Data is read from STDIN and the rate of sending can be controlled via
