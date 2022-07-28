@@ -1,6 +1,6 @@
 # notifier-cli
 
-### Simple sample program to handle arbitrarily large list messages to a specific url
+### Sample program to handle arbitrarily large list messages to a specific url, using semaphoes to control the number of spawned routines where the url call is made
 http POST requests to a configured url.
 
 Data is read from STDIN and the rate of sending can be controlled via
